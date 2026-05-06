@@ -297,7 +297,7 @@ python src/rl_integration_demo.py --model_path checkpoints/resnet18_best.pth \
 
 ```
 terrain-aware-locomotion/
-├── terrain_classification.ipynb   # Main Colab notebook (full pipeline)
+├── PRCV_Final_Project_Terrain_Aware_Visual_Perception_for_Quadruped_Locomotion.ipynb   # Main Colab notebook (full pipeline)
 ├── data/
 │   ├── synthetic/                 # Generated MuJoCo images (6 classes × 1,000)
 │   └── real_world/                # 60 personally captured photos (3 classes × 20)
