@@ -181,14 +181,15 @@ Retrained with aggressive augmentation:
 
 **Result:** 55.0% → **66.7%** overall accuracy; rough class: 65% → **100%** ✅
 
-![Sim-to-Real Comparison](results/simtoreal_comparison.png)
 <div align="center">
-  <img src="results/simtoreal_comparison.png" alt="Sim-to-Real Comparison" width="300"/>
+  <img src="results/simtoreal_comparison.png" alt="Sim-to-Real Comparison" width="450"/>
 </div>
 
 **Confusion matrix (real-world images):**
 
-![Confusion Matrix](results/simtoreal_confusion.png)
+<div align="center">
+  <img src="results/simtoreal_confusion.png" alt="Confusion Matrix" width="450"/>
+</div>
 
 ### Key Transfer Insights
 
