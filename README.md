@@ -297,21 +297,14 @@ python src/rl_integration_demo.py --model_path checkpoints/resnet18_best.pth \
 
 ```
 terrain-aware-locomotion/
-├── src/
-│   ├── generate_dataset.py      # MuJoCo dataset generation pipeline
-│   ├── train.py                 # CNN training (ResNet18, MobileNetV2)
-│   ├── evaluate_simtoreal.py    # Real-world evaluation + domain randomization
-│   ├── rl_integration_demo.py   # VisionEnhancedAnt wrapper demo
-│   └── models/
-│       ├── resnet18.py
-│       └── mobilenetv2.py
+├── terrain_classification.ipynb   # Main Colab notebook (full pipeline)
 ├── data/
-│   ├── synthetic/               # Generated MuJoCo images (6 classes × 1,000)
-│   └── real_world/              # 60 personally captured photos (3 classes × 20)
+│   ├── synthetic/                 # Generated MuJoCo images (6 classes × 1,000)
+│   └── real_world/                # 60 personally captured photos (3 classes × 20)
 ├── checkpoints/
 │   ├── resnet18_best.pth
 │   └── resnet18_domain_rand.pth
-├── results/                     # All figures included in the paper
+├── results/                       # All figures included in the paper
 │   ├── dataset_samples.png
 │   ├── training_curves_resnet18.png
 │   ├── ablation_evaluation.png
@@ -320,7 +313,7 @@ terrain-aware-locomotion/
 │   ├── simtoreal_confusion.png
 │   └── integration_summary.png
 ├── paper/
-│   └── final_report.pdf         # Full IEEE-format paper
+│   └── final_report.pdf
 ├── requirements.txt
 └── README.md
 ```
