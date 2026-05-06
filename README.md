@@ -123,7 +123,9 @@ The dataset is generated procedurally using the **MuJoCo Ant-v5** quadruped with
 
 **Sample dataset images:**
 
-![Dataset Samples](results/dataset_samples.png)
+<div align="center">
+  <img src="results/dataset_samples.png" alt="Dataset Samples" width="300"/>
+</div>
 
 ---
 
