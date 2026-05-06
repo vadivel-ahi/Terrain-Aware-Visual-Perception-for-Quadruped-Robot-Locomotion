@@ -257,42 +257,6 @@ seaborn
 tqdm
 ```
 
----
-
-## 🚀 Usage
-
-### 1. Generate Synthetic Dataset
-
-```bash
-python src/generate_dataset.py --output_dir data/ --samples_per_class 1000
-```
-
-### 2. Train the Classifier
-
-```bash
-# Train ResNet18
-python src/train.py --model resnet18 --epochs 30 --lr 1e-4
-
-# Train with domain randomization (for sim-to-real)
-python src/train.py --model resnet18 --domain_randomization --epochs 30
-```
-
-### 3. Evaluate on Real-World Images
-
-```bash
-python src/evaluate_simtoreal.py --model_path checkpoints/resnet18_best.pth \
-                                  --data_dir data/real_world/
-```
-
-### 4. Run RL Integration Demo
-
-```bash
-python src/rl_integration_demo.py --model_path checkpoints/resnet18_best.pth \
-                                   --terrain flat rough stairs slope_5 slope_10 slope_15
-```
-
----
-
 ## 📁 Project Structure
 
 ```
