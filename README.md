@@ -237,7 +237,7 @@ The classifier correctly identifies all 6 terrain types in simulation with high-
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/terrain-aware-locomotion.git
+git clone https://github.com/vadivel-ahi/Terrain-Aware-Visual-Perception-for-Quadruped-Robot-Locomotion.git
 cd terrain-aware-locomotion
 
 # Create a virtual environment
