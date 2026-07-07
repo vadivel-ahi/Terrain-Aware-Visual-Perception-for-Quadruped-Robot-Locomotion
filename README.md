@@ -1,7 +1,6 @@
 # 🤖 Terrain-Aware Visual Perception for Quadruped Robot Locomotion
 ### A Sim-to-Real Transfer Study
 
-[![Northeastern University](https://img.shields.io/badge/Northeastern_University-CS5330-D41B2C?style=flat-square)](https://www.khoury.northeastern.edu/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![MuJoCo](https://img.shields.io/badge/MuJoCo-Gymnasium-00A36C?style=flat-square)](https://gymnasium.farama.org/)
